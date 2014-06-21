@@ -1,0 +1,13 @@
+/* 
+    Document   : profile-stats.css
+    Created on : May 8, 2014, 10:37:43 PM
+    Author     : UEO
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+.profile-stats-body, .chart-wrapper{background:  #383232 url(../images/header-bg.jpg)}

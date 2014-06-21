@@ -1,0 +1,87 @@
+#start{border:0px solid royalblue; width:650px; height:190px; margin: 0 auto; margin-top:30px;}
+#space{border:0px solid black; width:600px;height:30px}
+#commentbox{border-right:0px solid royalblue;width:500px;height:90px;float:left; margin:0 auto; margin-top:5px}
+#inputc{border: 1px solid black; width:500px;height:90px; background-color: white; color:darkslategray}
+#optbox{border:0px solid royalblue; width:90px; height:60px;float:left; margin-top:9px; margin-left:5px}
+
+#postcomment{text-decoration: none; border:0px solid royalblue; text-align: center}
+
+#rn{border:0px solid royalblue; width:200px; height:59px; float:left; text-align: center; margin: auto; padding-top:20px}
+#roomsides{border-bottom:1px solid grey; width:500px; height:auto; float:right;text-align: center;margin-right: 150px}
+
+#roomnamex {
+    font-size: larger;
+}
+
+.overlayInner{border:0px solid royalblue; width:400px;height:37px; margin:0 auto; float:right}
+.cat{border: 2px solid transparent; width:200px; margin:auto}
+
+.leftact {
+    float: right;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+#apply {
+    border: 0px solid royalblue;
+    width: 900px;
+    height: auto;
+}
+
+#notify, #readlater, #search{
+    margin-left: 20px;
+    width:24px;
+    height:auto;
+}
+
+
+#pageslide {
+    /* These styles MUST be included. Do not change. */
+    display: none;
+    position: absolute;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    z-index: 999999;
+
+    /* Specify the width of your pageslide here */
+    width: 350px;
+    padding: 10px;
+
+    /* These styles are optional, and describe how the pageslide will look */
+    background: #383232 url(../images/header-bg.jpg);
+    color: #FFF;
+    -webkit-box-shadow: inset 0 0 5px 5px #222;
+    -moz-shadow: inset 0 0 5px 5px #222;
+    box-shadow: inset 0 0 3px 3px #222;
+}
+
+.qtip-tipsy{
+    width: 400px;
+    max-height: 220px;
+    overflow-y: auto;
+    margin-top: 9px;
+    /* background-color: #3A3434*/
+}
+.qtip-tipsy a:hover{
+    color:activecaption
+}
+.qtip-tipsy div.unread{
+    border: 1px solid green;
+    width: auto;
+    height: auto
+}
+.qtip-tipsy div.read{
+    border: 0px solid green;
+    width: auto;
+    height: auto
+}
+
+#home-title{
+    border-bottom: 3px #11ABB0 solid; 
+    width: auto;
+    height: 57px;
+    padding-bottom: 10px;
+}
+#home-title h1{float:left;display: inline}
+

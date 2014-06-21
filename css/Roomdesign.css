@@ -1,0 +1,82 @@
+body{width:100%;height:100%}
+#start{width:850px; margin: 0 auto}
+
+#room-options{margin:0 auto; background-color: lightgreen; text-align:center; width:852px; height:60px;padding-top:15px;margin-top: 10px }
+#room-options a{color:#313131}
+#tag-mark, #view-stats{float:right; border:1px solid transparent; width: 60px;}
+#roomname-op, #cat-op, #started-op, #by-op{float:left; border:1px solid transparent; width: auto;}
+#roomname-op{ margin-left: 5px}
+
+#roomname{margin:0 auto; border:1px solid transparent; text-align:center; width:852px; height:60px;}
+#roomname .rm1{float:left; border:1px solid transparent; width: 375px;}
+#roomname .rm2{float:right; border:1px solid transparent;width:375px;}
+#roomname .rmvs{margin-left: 25px; float: left; border:1px solid transparent;width:50px;}
+#commentfeed_side1{background-color: #fff; margin:0 auto; border:1px solid silver; width:400px; height:650px;float: left}
+#commentfeed_side2{background-color: #fff;margin:0 auto; border:1px solid silver; width:400px; height:650px;float:right}
+
+#side1{float:left;border:1px solid black; width: 400px; height:650px}
+#post1{float:left;border-bottom:1px solid black; width: 400px; height:47px; margin-bottom: 100px}
+
+#side2{float:left;border:1px solid black; width: 400px; height:650px;margin-bottom: 60px}
+#post2{float:left;border-bottom:1px solid black; width: 400px; height:47px; margin-bottom: 100px}
+
+
+#comment1{border-bottom:1px solid black; width: 398px; height: 90px;margin: 0}
+#s1{float:left;  }
+#s2{float:right;}
+
+#comment2{border-bottom:1px solid black; width: 398px; height: 90px;margin:0}
+
+
+.content1, .content2{float:left;border-bottom:0px solid red; width:405px;max-height:483px; overflow-y: auto;
+                     ;margin-top: 20px; word-wrap: break-word; overflow-x: hidden;}
+
+#notify, #readlater, #search{
+    margin-left: 20px;
+    width:24px;
+    height:auto;
+}
+
+
+#pageslide {
+    /* These styles MUST be included. Do not change. */
+    display: none;
+    position: absolute;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    z-index: 999999;
+
+    /* Specify the width of your pageslide here */
+    width: 350px;
+    padding: 10px;
+
+    /* These styles are optional, and describe how the pageslide will look */
+    background: #383232 url(../images/header-bg.jpg);
+    color: #FFF;
+    -webkit-box-shadow: inset 0 0 5px 5px #222;
+    -moz-shadow: inset 0 0 5px 5px #222;
+    box-shadow: inset 0 0 3px 3px #222;
+}
+
+
+.qtip-tipsy{
+    width: 400px;
+    max-height: 220px;
+    overflow-y: auto;
+    margin-top: 9px;
+    /*background-color: #3A3434*/
+}
+.qtip-tipsy a:hover{
+    color:activecaption
+}
+.qtip-tipsy div.unread{
+    border: 1px solid green;
+    width: auto;
+    height: auto
+}
+.qtip-tipsy div.read{
+    border: 0px solid green;
+    width: auto;
+    height: auto
+}

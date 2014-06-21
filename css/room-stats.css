@@ -1,0 +1,34 @@
+#stats-section{
+    border: 2px transparent solid; 
+    width: 1100px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: none
+}
+
+
+.page section {
+    padding-top: 20px; 
+}
+
+#averages{
+    border-bottom: 2px crimson double;
+    width: 850px;
+    height: 40px;
+    margin: 0 auto;
+}
+#stats-op{
+    border-bottom: 2px crimson double;
+    width: 300px;
+    height: 40px;
+    margin: 0 auto;
+}
+#stats-op h4{display:inline-block; margin-top: 5px}
+#stats-op #g1{float: left}
+#stats-op #g2{float: right}
+
+#averages h2{display:inline-block}
+#averages h4 a{margin-right: 10px}
+#averages h2#a1{float:left}
+#averages h2#a2{float:right}

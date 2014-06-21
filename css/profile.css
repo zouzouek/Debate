@@ -1,0 +1,25 @@
+/* 
+    Document   : profile
+    Created on : May 8, 2014, 10:01:33 PM
+    Author     : UEO
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+img { border-radius: 3px; }
+body{background:  #383232 url(../images/header-bg.jpg)}
+.profile-body a:hover{color:white}
+.info h5{display: inline; }
+.pull-left{margin-top: 20px;width: 300px}
+
+.name-photo{margin-top: 12px}
+#myfollows{float: left}
+#myfollowers{float: right}
+
+.follow-block{border-top: 2px white solid; border-bottom: 2px white solid; width: 200px;height:30px; margin: 0 auto;
+              margin-top: 10px}
+
